@@ -1,6 +1,6 @@
 {
   "name": "cs-redux-devtool",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "clean-state debugging tool",
   "main": "index.js",
   "type": "index.d.ts",

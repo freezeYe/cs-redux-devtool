@@ -1,5 +1,3 @@
-import { Module } from 'clean-state'
-
-declare function install(modules: Record<string, Module>, on: any): any
+declare function install(modules: Record<string, any>, on: any): any
 
 export default typeof install

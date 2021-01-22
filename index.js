@@ -1,7 +1,5 @@
 import { createStore, combineReducers } from 'redux'
-import bootstrap from 'clean-state'
 
-var { DISPATCH_TYPE } = bootstrap
 var reduxStore = null;
 var actionLen = 0
 
@@ -24,7 +22,7 @@ function createReducers(modules) {
   var reducers = {};
   moduleKeys.forEach(function (key) {
     const {state} = modules[key]
-    reducers[m] = createReducer(key, state);
+    reducers[key] = createReducer(key, state);
   });
   return reducers;
 }
@@ -43,11 +41,11 @@ function dispatchAction(actionForRedux) {
   }
 }
 
-function install(modules, on) {
+function install(modules, pluginEmitter) {
   const reducers = createReducers(modules)
 
   injectReduxDevTool(reducers)
-  on(DISPATCH_TYPE, (action)=> {
+  pluginEmitter.on('CS_DISPATCH_TYPE', (action)=> {
     dispatchAction(action)
   })
 }
