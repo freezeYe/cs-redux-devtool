@@ -1,0 +1,23 @@
+{
+  "name": "cs-redux-devtool",
+  "version": "1.0.0",
+  "description": "clean -state debugging tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freezeYe/cs-redux-devtool.git"
+  },
+  "author": "freezeYe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freezeYe/cs-redux-devtool/issues"
+  },
+  "homepage": "https://github.com/freezeYe/cs-redux-devtool#readme",
+  "dependencies": {
+    "clean-state": "^2.1.2",
+    "redux": "^4.0.5"
+  }
+}
