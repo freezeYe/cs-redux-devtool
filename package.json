@@ -1,8 +1,9 @@
 {
   "name": "cs-redux-devtool",
   "version": "1.0.0",
-  "description": "clean -state debugging tool",
+  "description": "clean-state debugging tool",
   "main": "index.js",
+  "type": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
