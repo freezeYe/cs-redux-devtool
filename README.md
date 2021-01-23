@@ -5,8 +5,9 @@
     
 ## Usage
 ```javascript
-import user from './user'
+import bootstrap from 'clean-state'
 import devtool from 'cs-redux-devtool'
+import user from './user'
 
 const modules = ={ user }
 
