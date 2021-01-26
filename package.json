@@ -12,7 +12,7 @@
     "url": "git+https://github.com/freezeYe/cs-redux-devtool.git"
   },
   "author": "freezeYe",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/freezeYe/cs-redux-devtool/issues"
   },
