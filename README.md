@@ -1,4 +1,4 @@
-## The [Clean-State](https://github.com/tnfe/clean-state) debugging plugin.
+## The [Clean-State](https://github.com/tnfe/clean-state) debugging plugin
 
 ## Install
     npm i cs-redux-devtool
